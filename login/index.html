@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Coruja - Metodologia Ativo no Apoio ao Ensino</title>
+        <meta name="description" content="Coruja." />
+        <meta name="keywords" content="css3, login, form, custom, input, submit, button, html5, placeholder" />
+        <meta name="author" content="Adriana Da Leve <Mat:14046>" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css" />
+		<script src="js/modernizr.custom.63321.js"></script>
+	
+		<style>	
+			@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+			body {
+
+				background: #7f9b4e url(images/corujas.jpg) no-repeat center top;
+				/*Configuração para navegador Crhome a Imagem Cobre todo o Funco */
+				-webkit-background-size: cover;  
+				/*Configuração para navegador Mozila a Imagem Cobre todo o Funco */
+				-moz-background-size: cover;
+				/*Configuração para navegador outros navegadores a Imagem Cobre todo o Funco */
+				background-size: cover;
+			}
+			.container > header h1,
+			.container > header h2 {
+				color: #fff;
+				text-shadow: 0 2px 2px rgba(255, 255, 255, 0.73);
+			}
+		</style>
+    </head>
+    <body>
+        <div class="container">
+		
+		
+			<header>
+			<br>
+				<h1 class="pull-left restrito"><strong>Coruja </strong></h1>
+				<h2 class="pull-left ml-20 restrito"><strong>&#32;&#32; Coruja Metodologia Ativa</strong></h2>
+				
+				<div class="support-note">
+					<span class="note-ie">Desculpe, somente navegadores modernos.</span>
+				</div>
+				
+			</header>
+			
+			<section class="main">
+				<form class="form-4" action="../autentication.php" method="POST">
+					<div class="coruja">
+						
+					    <h1 class="restrito"><strong>Acesso Restrito</strong></h1>
+					    <p>
+					        <label for="login">Usuário</label>
+					        <input type="text" name="login" placeholder="Usuário" required>
+					    </p>
+					    <p>
+					        <label for="password">Senha</label>
+					        <input type="password" name='password' placeholder="Senha" required> 
+					    </p>
+
+					    <p>
+					        <input type="submit" name="submit" value="Continue">
+					    </p> 
+				    </div>      
+				</form>​
+			</section>
+			
+        </div>
+    </body>
+</html>
